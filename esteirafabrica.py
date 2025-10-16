@@ -1,0 +1,16 @@
+while True:
+  garrafa_cheia = "500"
+  garrafa_metade = "250"
+  garrafa_vazia = "0"
+
+  resultado_sensor = input("Resultado do sensor: ")
+  if resultado_sensor == garrafa_cheia:
+      print("Garrafa cheia \n continuando...")
+  elif resultado_sensor == garrafa_metade:
+      print("Garrafa na metade \n parando processo...")
+      break
+  elif resultado_sensor == garrafa_vazia:
+      print("Garrafa vazia \n parando processo...")
+      break
+  else:
+    break
